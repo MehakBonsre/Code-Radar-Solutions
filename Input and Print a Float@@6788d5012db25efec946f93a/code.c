@@ -2,11 +2,11 @@
 
 int main()
 {
-    float a;
-    printf("Enter a single floating-point number.");
-    scanf("%f", &a);
+    float num;
+    printf("Enter a single floating-point number:");
+    scanf("%f", &num);
     
-    printf("%f", a);
+    printf("You entered:%f\n", num);
 
     return 0;
 }
