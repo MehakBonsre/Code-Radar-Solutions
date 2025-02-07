@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    double x;
-    scanf("%e", &x);
-    printf("You entered: %e", x);
+    double num;
+    scanf("%e", &num);
+    printf("You entered: %e", num);
     return 0;
 }
