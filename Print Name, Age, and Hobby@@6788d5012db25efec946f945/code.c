@@ -13,5 +13,4 @@ int main(){
     printf("Hobby: %s", hobby);
 
     return 0;
-
 }
