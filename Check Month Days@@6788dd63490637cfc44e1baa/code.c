@@ -41,5 +41,5 @@ int main(){
     else {
         printf("error");
     }
-    return0;
+    return 0;
 }
