@@ -1,25 +1,37 @@
 #include <stdio.h>
 int main(){
-    int a,b,sum,diff,prod,div;
-    scanf("%d%d", &a, &b);
-    if(a,b,+){
-        sum=a+b;
-        printf("%d", sum);
+    int a, b;
+    char operator;
+    int result;
+    
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    printf("Enter an operator (+, -, *, /): ");
+    scanf(" %c", &operator);
+
+    switch(operator) {
+        case '+':
+            result = a + b;
+            break;
+        case '-':
+            result = a - b;
+            break;
+        case '*':
+            result = a * b;
+            break;
+        case '/':
+            if (b != 0)
+                result = a / b;
+            else {
+                printf("Error: Division by zero\n");
+                return 1;
+            }
+            break;
+        default:
+            printf("Error: Invalid operator\n");
+            return 1;
     }
-    else if(a,b,-){
-        diff=a-b;
-        printf("%d", diff);
-    }
-    else if(a,b,*){
-        prod=a*b;
-        printf("%d", prod);
-    }
-    else if(a,b,/){
-        div=a/b;
-        printf("%d", div);
-    }
-    else{
-        printf("Error");
-    }
+
+    printf("Result: %d\n", result);
     return 0;
 }
