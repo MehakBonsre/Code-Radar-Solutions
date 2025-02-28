@@ -12,7 +12,7 @@ int main(){
         printf("slow Down");
     }
     else{
-        printf("error");
+        printf("Invalid input");
     }
     return 0;
 }
