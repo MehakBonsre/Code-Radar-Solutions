@@ -12,7 +12,7 @@ int main(){
         printf("30");
     }
     else if(a==4){
-        printf("31");
+        printf("30");
     }
     else if(a==5){
         printf("30");
@@ -39,7 +39,7 @@ int main(){
         printf("31");
     }
     else {
-        printf("error");
+        printf("Invalid month");
     }
     return 0;
 }
