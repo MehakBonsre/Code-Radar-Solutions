@@ -4,9 +4,9 @@ int main(){
     char operator;
     int result;
     
-    printf("Enter two numbers: ");
+    
     scanf("%d %d", &a, &b);
-    printf("Enter an operator (+, -, *, /): ");
+    
     scanf(" %c", &operator);
 
     switch(operator) {
