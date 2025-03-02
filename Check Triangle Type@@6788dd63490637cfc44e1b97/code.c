@@ -1,5 +1,5 @@
 //#include <stdio.h>
-int main()
+void main()
 {
     int a, b, c;
     scanf("%d %d %d", a, b, c);
@@ -9,5 +9,5 @@ int main()
         printf("Isosceles");
     else
         printf("Scalene");
-    return 0;
+  //  return 0;
 }
