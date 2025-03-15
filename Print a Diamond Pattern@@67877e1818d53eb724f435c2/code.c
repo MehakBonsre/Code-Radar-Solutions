@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i, j, k, n;
+    int i, j, n;
     printf("Enter the number of rows for the diamond's upper half: ");
     scanf("%d", &n);
 
@@ -9,7 +9,7 @@ int main() {
         for (j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        for (k = 1; k <= (2 * i - 1); k++) {
+        for (j = 1; j<= (2 * i - 1); j++) {
             printf("*");
         }
         printf("\n");
@@ -20,7 +20,7 @@ int main() {
         for (j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        for (k = 1; k <= (2 * i - 1); k++) {
+        for (j = 1; j <= (2 * i - 1);j++) {
             printf("*");
         }
         printf("\n");
