@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
     int i, j, n;
-    printf("Enter the number of rows for the diamond's upper half: ");
     scanf("%d", &n);
 
     // Upper half of the diamond
