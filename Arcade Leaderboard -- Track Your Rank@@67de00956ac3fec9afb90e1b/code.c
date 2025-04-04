@@ -1,6 +1,6 @@
 #include <stdio.h>
 void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]);
-int main.c{
+int main(){
     int i, n, m;
 
     // Read the number of ranked scores
